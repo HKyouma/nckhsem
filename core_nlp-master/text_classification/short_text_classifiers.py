@@ -30,7 +30,7 @@ def load_synonym_dict(file_path):
     :return: synonym dictionary
     """
     sym_dict = dict()
-    with open(file_path, 'r') as fr:
+    with open(file_path, 'r', encoding="utf8") as fr:
         lines = fr.readlines()
     lines = [ln.strip() for ln in lines if len(ln.strip()) > 0]
     for ln in lines:
@@ -209,7 +209,7 @@ class KerasTextClassifier(BaseTextClassifier):
         :param file_path: path to file
         :return: list of sentences
         """
-        with open(file_path, 'r') as fr:
+        with open(file_path, 'r', encoding="utf8") as fr:
             sentences = fr.readlines()
             sentences = [sent.strip() for sent in sentences if len(sent.strip()) > 0]
         return sentences

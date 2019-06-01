@@ -17,7 +17,7 @@ def load_crf_config(file_path):
     :param file_path: path to config file
     :return: config as dictionary
     """
-    with open(file_path) as fr:
+    with open(file_path, encoding="utf8") as fr:
         param_dict = fr.read()
         param_dict = ast.literal_eval(param_dict)
     return param_dict

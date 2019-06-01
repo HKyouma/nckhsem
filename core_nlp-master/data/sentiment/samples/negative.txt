@@ -1,4 +1,4 @@
-phim nhảm
+﻿phim nhảm
 ghét xem phim này
 coi tốn thời gian
 bảo đảm nhảm nhí
@@ -36,3 +36,5 @@ không hay
 chẳng ra gì
 phim chán
 chán thật
+thiết kế quá cùi
+giao hàng lâu

@@ -1,4 +1,4 @@
-phim hay quá ae
+﻿phim hay quá ae
 hay thế
 phim hay tuyệt
 Hay
@@ -34,3 +34,6 @@ hay thật
 hay quá
 rất thích và đáng xem
 xuất sắc
+dễ dùng
+ổn định
+tin cậy
